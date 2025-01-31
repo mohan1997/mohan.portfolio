@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <title>Portfolio website complete</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">MohanKrishna Sajja</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">Experience</a>
+            </li>
+            <li class="nav__item">
+                <a href="#education" class="nav__link">Education</a>
+              </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I'am <span class="home__title-color">Mohan</span><br />
+            Full Stack Engineer
+          </h1>
+
+          <a href="#contact" class="button">Contact</a>
+        </div>
+
+        <div class="home__social">
+          <a href="https://www.linkedin.com/in/mohansajja/" class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/mohan1997
+          " class="home__social-icon"><i class="bx bxl-github"></i></a>
+        </div>
+
+        <div class="home__img">
+          <svg
+            class="home__blob"
+            viewBox="0 0 479 467"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <mask id="mask0" mask-type="alpha">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+            </mask>
+            <g mask="url(#mask0)">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+              <image
+                class="home__blob-img"
+                x="50"
+                y="60"
+                href="assets/img/Mohan_Img.png"
+              />
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/Myimage.jpeg" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">I'am MohanKrishna Sajja</h2>
+            <p class="about__text">
+              A seasoned Full Stack Developer with extensive experience in both
+              backend and frontend technologies
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Profesional Skills</h2>
+            <p class="skills__text">
+              Experienced Software Developer with a strong foundation in Core
+              Java, JEE, and web application development. Proficient in
+              designing, developing, and deploying scalable and high-performance
+              applications using modern frameworks, cloud technologies, and
+              database solutions. Adept at leveraging Agile and Scrum
+              methodologies to deliver robust and efficient software solutions.
+            </p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              <div>
+                <span class="skills__percentage">95%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-java skills__icon"></i>
+                <span class="skills__name">Java</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              <div>
+                <span class="skills__percentage">90%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-css3 skills__icon"></i>
+                <span class="skills__name">CSS3</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-aws skills__icon"></i>
+                <!-- AWS Icon -->
+                <span class="skills__name">AWS</span>
+              </div>
+              <div class="skills__bar skills__aws"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <img
+                  src="assets/img/image.png"
+                  alt="Azure Logo"
+                  class="skill__icon"
+                />
+                <span class="skills__name">Azure</span>
+              </div>
+              <div class="skills__bar skills__azure"></div>
+              <div>
+                <span class="skills__percentage">80%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-javascript skills__icon"></i>
+                <span class="skills__name">JAVASCRIPT</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage">65%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxs-paint skills__icon"></i>
+                <span class="skills__name">UX/UI</span>
+              </div>
+              <div class="skills__bar skills__ux"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <img src="assets/img/work3.jpg" alt="" class="skills__img" />
+          </div>
+        </div>
+      </section>
+
+      <section class="experience section" id="experience">
+        <h2 class="section-title">Experience</h2>
+
+        <div class="experience__container">
+          <div class="experience__item">
+            <h3 class="experience__title">Full Stack Engineer</h3>
+            <span class="experience__company"
+              >Mitchell International | May 2022 - Present</span
+            >
+            <p class="experience__description">
+              I design and develop scalable enterprise applications using Java,
+              Angular, and cloud technologies. My work involves building
+              microservices, optimizing database performance, and implementing
+              efficient CI/CD pipelines for seamless deployments. I specialize
+              in developing REST APIs, integrating cloud solutions on AWS, and
+              automating infrastructure provisioning. Additionally, I work with
+              modern front-end technologies, ensuring responsive and dynamic
+              user interfaces while maintaining secure and high-performance
+              applications. My expertise extends to performance tuning,
+              rule-based systems, and DevOps automation, delivering end-to-end
+              software solutions."
+            </p>
+          </div>
+
+          <div class="experience__item">
+            <h3 class="experience__title">Full Stack Java Developer</h3>
+            <span class="experience__company"
+              >Synergy Technologies | Dec 2020 - Jan 2022</span
+            >
+            <p class="experience__description">
+              I designed and developed scalable microservices, front-end
+              applications, and cloud-based solutions using Java, React, and
+              AWS. I migrated monolithic applications to microservices,
+              optimized database interactions, and automated CI/CD pipelines.
+              Additionally, I containerized deployments with Docker and
+              Kubernetes, monitored application performance, troubleshot
+              technical issues, and implemented DevOps best practices to
+              streamline development and deployment processes."
+            </p>
+          </div>
+
+          <div class="experience__item">
+            <h3 class="experience__title">JR Java Developer</h3>
+            <span class="experience__company"
+              >Maximus I.T Sol | Jan 2018 - Nov 2020</span
+            >
+            <p class="experience__description">
+              I gathered and analyzed requirements, designed multi-tier web
+              applications, and migrated legacy systems to a microservices
+              architecture using Spring Boot and REST APIs. I developed and
+              maintained backend services with Hibernate, Couchbase, and Oracle
+              databases while implementing ORM for efficient data persistence. I
+              also contributed to business process modeling using IBM Blue Works
+              and BPM Lombardi, ensuring seamless workflow integration.
+              Additionally, I configured and deployed applications on IBM
+              WebSphere, performed unit testing with JUnit, and automated builds
+              using Maven."
+            </p>
+          </div>
+
+          <div class="experience__item">
+            <h3 class="experience__title">Software Engineer</h3>
+            <span class="experience__company"
+              >CGSL | March 2017 - Dec 2017</span
+            >
+            <p class="experience__description">
+              Developed and maintained high-quality Android applications for
+              healthcare, ensuring seamless user experiences for patients,
+              doctors, and administrators. Integrated APIs for secure data
+              exchange, implemented multi-factor authentication, and optimized
+              app performance. Collaborated with cross-functional teams,
+              conducted thorough testing, and managed version control using
+              GitHub/GitLab to ensure reliability and scalability."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="education section" id="education">
+        <h2 class="section-title">Education</h2>
+    
+        <div class="education__container">
+            <div class="education__item">
+                <h3 class="education__degree">Masters in Data Science</h3>
+                <span class="education__school">Saint Peters University| 2022- 2023</span>
+                <p class="education__description">
+                    Specialized in software engineering, data science, and big data processing. Gained hands-on experience with Apache Spark for large-scale data analytics and distributed computing. Completed projects involving machine learning, data pipelines, and real-time data processing."
+                </p>
+            </div>
+    
+            <div class="education__item">
+                <h3 class="education__degree">Bachelor of Technology in Information Technology</h3>
+                <span class="education__school">Vignan's University | 2014 - 2018</span>
+                <p class="education__description">
+                    Specialized in web development, databases, and cybersecurity. Led a team project on Android Application.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+    
+        <div class="contact__container">
+            <!-- Left Side: Contact Information -->
+            <div class="contact__info">
+                <h3>Get in Touch</h3>
+                <p>If you have any inquiries or collaboration ideas, feel free to reach out.</p>
+                <div class="contact__details">
+                    <p><i class="fas fa-envelope"></i> <strong>Email:</strong>sajjamohan897@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> <strong>Phone: </strong> 609-474-6017</p>
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong>Princeton,NewJersey</p>
+                </div>
+            </div>
+    
+            <!-- Right Side: Contact Form -->
+            <form id="contactForm" action="https://formspree.io/f/mjkgrkjk" method="POST">
+                <input type="text" placeholder="Your Name" class="contact__input" name="name" required />
+                <input type="email" placeholder="Your Email" class="contact__input" name="email" required />
+                <textarea placeholder="Your Message" class="contact__input" rows="5" name="message" required></textarea>
+                <button type="submit" class="contact__button button">Send Message</button>
+              </form>
+         <div id="successMessage" class="success-message" style="display: none;">
+        <p>Message Sent! I will get back to you shortly.</p>
+    </div>
+    </section>    
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Mohan</p>
+      <div class="footer__social">
+        <a href="#" class="footer__icon"><i class="bx bxl-linkedin"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-github"></i></a>
+      </div>
+      <p class="footer__copy">&#169; MyPortfolio. All rigths reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", async function (event) {
+            event.preventDefault(); // Prevent default form submission
+    
+            let form = event.target; 
+            let formData = new FormData(form); 
+    
+            try {
+                let response = await fetch("https://formspree.io/f/mjkgrkjk", {
+                    method: "POST",
+                    body: formData,
+                    headers: { "Accept": "application/json" } 
+                });
+    
+                if (response.ok) {
+                    document.getElementById("successMessage").style.display = "block";
+                    form.style.display = "none"; // Hide the form after submission
+                } else {
+                    alert("There was an issue with your submission. Please try again.");
+                }
+            } catch (error) {
+                alert("Error sending message. Please check your internet connection and try again.");
+            }
+        });
+    </script>
+    
+      <style>
+        .success-message {
+          background-color: #28a745;
+          color: white;
+          padding: 15px;
+          border-radius: 5px;
+          margin-top: 20px;
+          text-align: center;
+          display: none; /* Hidden by default, shown after form submission */
+        }
+      </style>
+</body>
+</html>
